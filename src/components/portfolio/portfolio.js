@@ -38,7 +38,7 @@ export default class Header extends Component {
                                 <div className="columns portfolio-item">
                                     <div className="item-wrap">
                                         <a href="#modal-03" title>
-                                            <img alt src="images/portfolio/Friends.jpg" />
+                                            <img alt src="images/portfolio/friends.jpg" />
                                             <div className="overlay">
                                                 <div className="portfolio-item-meta">
                                                     <h5>Friend Finder</h5>
