@@ -8,7 +8,8 @@ let portData = {
         "resumeLink": "https://drive.google.com/open?id=1KLMhhmuubARZXIiR75dJNKElADbtM3Wv",
         "addressOne": "5942 E Sanderling Dr",
         "addressTwo": "Tucson, AZ, 85756",
-        "phoneNumber": "520-780-8707"
+        "phoneNumber": "520-780-8707",
+        "email":"java152001@gmail.com"
     },
     "education": {
         "university": "University of Arizona",

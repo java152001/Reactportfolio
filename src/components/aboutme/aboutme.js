@@ -12,9 +12,9 @@ export default class Header extends Component {
                         <div className="nine columns main-col">
                             <h2>About Me</h2>
                             <p>Hi everyone! I'm an aspiring Full Stack Developer with emphasis on Front End technologies and skills. I have 
-                                recently graduated from the Univerity of Arizona full stack boot camp and am looking to put my newfound skills
+                                recently graduated from the University of Arizona full stack boot camp and am looking to put my newfound skills
                                 into practice.  When I'm not working on coding I can be found binging anime or grinding away in an RPG.  I also 
-                                love to cook and share my food with anyone whose hungry!
+                                love to cook and share my food with anyone who's hungry!
       </p>
                             <div className="row">
                                 <div className="columns contact-details">
@@ -25,7 +25,7 @@ export default class Header extends Component {
                                             {portData.aboutMe.addressTwo}
             </span><br />
                                         <span>{portData.aboutMe.phoneNumber}</span><br />
-                                        <span>anyone@website.com</span>
+                                        <span>{portData.aboutMe.email}</span>
                                     </p>
                                 </div>
                                 <div className="columns download">

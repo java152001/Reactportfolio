@@ -66,7 +66,7 @@ export default class Header extends Component {
                         {/* Modal Popup
 	      --------------------------------------------------------------- */}
                         <div id="modal-01" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt />
+                            <img className="scale-with-grid" src="images/portfolio/modals/m-boardgame.jpg" alt />
                             <div className="description-box">
                                 <h4>Game On</h4>
                                 <p>Love board games? Need people to play? Use our app to schedule meet ups!</p>
@@ -92,7 +92,7 @@ export default class Header extends Component {
                             </div>
                         </div>{/* modal-02 End */}
                         <div id="modal-03" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt />
+                            <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt />
                             <div className="description-box">
                                 <h4>Friend Finder</h4>
                                 <p>Answer some personality questions to find your ideal animated pal!</p>
@@ -105,7 +105,7 @@ export default class Header extends Component {
                             </div>
                         </div>{/* modal-03 End */}
                         <div id="modal-04" className="popup-modal mfp-hide">
-                            <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt />
+                            <img className="scale-with-grid" src="images/portfolio/modals/m-pikachu.jpg" alt />
                             <div className="description-box">
                                 <h4>Pokemon Trivia</h4>
                                 <p>Javascript/JQuery game designed to test your knowledge of pokemon.</p>
