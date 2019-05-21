@@ -1,28 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import Header from './components/header/header';
+import AboutMe from './components/aboutme/aboutme';
+import Resume from './components/resume/resume';
+import Portfolio from './components/portfolio/portfolio';
+import ContactMe from './components/contactme/contactme';
+import Footer from './components/footer/footer';
+import portData from './portdata';
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header portData={portData} />
+        <AboutMe portData={portData} />
+        <Resume portData={portData} />
+        <Portfolio portData={portData} />
+        {/* <ContactMe portData={portData} /> */}
+        <Footer portData={portData} />
       </div>
     );
   }
 }
-
 export default App;
