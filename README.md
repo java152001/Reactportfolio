@@ -1,3 +1,5 @@
+This is my personal portfolio.  It was coded and built with React front end and no backend at this time.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
