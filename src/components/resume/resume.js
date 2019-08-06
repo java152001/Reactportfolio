@@ -53,8 +53,17 @@ export default class Header extends Component {
                         <div className="nine columns main-col">
                             <div className="row item">
                                 <div className="twelve columns">
-                                    <h3>{portData.work.location}</h3>
-                                    <p className="info">{portData.work.position} <span>•</span> <em className="date">{portData.work.dateRange}</em></p>
+                                    <h3>{portData.work.location2}</h3>
+                                    <p className="info">{portData.work.postion2} <span>•</span><em className="data">{portData.work.dateRange2}</em></p>
+                                    <p>
+                                        Assisted a group of brand new web developers! Responsible for demonstrating techniques and best practices in order to help students build an understanding of web dev technologies. Helped with fostering solutions to their ideas as for new applications.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="row item">
+                                <div className="twelve columns">
+                                    <h3>{portData.work.location1}</h3>
+                                    <p className="info">{portData.work.position1} <span>•</span> <em className="date">{portData.work.dateRange1}</em></p>
                                     <p>
                                         Managed teams of 15 to 20 agents to help them achieve personal and
                                         team metrics at the highest level. Demonstrated exceptional

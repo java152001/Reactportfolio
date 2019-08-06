@@ -18,9 +18,12 @@ let portData = {
         "endDate": "January 2019"
     },
     "work": {
-        "location": "iQor",
-        "dateRange": "June 2007 to current",
-        "position": "Operations Supervisor",
+        "location1": "iQor",
+        "dateRange1": "June 2007 to current",
+        "position1": "Operations Supervisor",
+        "location2": "2A",
+        "dateRange2": "June 2019 to current",
+        "position2": "Teaching Assistant"
     },
     "projects": {
         "projectOneHub": "https://github.com/java152001/TriviaGame",
