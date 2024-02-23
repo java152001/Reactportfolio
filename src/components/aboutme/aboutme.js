@@ -11,11 +11,9 @@ export default class Header extends Component {
                         </div>
                         <div className="nine columns main-col">
                             <h2>About Me</h2>
-                            <p>Hi everyone! I'm an aspiring Full Stack Developer with emphasis on Front End technologies and skills. I have 
-                                recently graduated from the University of Arizona full stack boot camp and am looking to put my newfound skills
-                                into practice.  When I'm not working on coding I can be found binging anime or grinding away in an RPG.  I also 
+                            <p>Hi everyone! I'm a Full Stack Developer with 5 years of industry experience. When I'm not working I can be found playing with my kiddos or grinding away in an RPG.  I also 
                                 love to cook and share my food with anyone who's hungry!
-      </p>
+                            </p>
                             <div className="row">
                                 <div className="columns contact-details">
                                     <h2>Contact Details</h2>
@@ -30,7 +28,7 @@ export default class Header extends Component {
                                 </div>
                                 <div className="columns download">
                                     <p>
-                                        <a href={portData.aboutMe.resumeLink} className="button"><i className="fa fa-download" />Download Resume</a>
+                                        <a href={portData.aboutMe.resumeLink} className="button">View Resume</a>
                                     </p>
                                 </div>
                             </div> {/* end row */}

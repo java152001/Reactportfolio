@@ -5,7 +5,57 @@ export default class Header extends Component {
         return (
             <React.Fragment>
                 <section id="resume">
-                    {/* Education
+                    {/* Work
+----------------------------------------------- */}
+                    <div className="row work">
+                        <div className="three columns header-col">
+                            <h1><span>Experience</span></h1>
+                        </div>
+                        <div className="nine columns main-col">
+                            <div className="row item">
+                                <div className="twelve columns">
+                                    <h3>{portData.work.location2}</h3>
+                                    <p className="info">{portData.work.position2} <span>•</span><em className="data">{portData.work.dateRange2}</em></p>
+                                    <p>
+                                        Developed their flagship web and windows application Bhive (<a href='https://www.go.inbhive.com/'>Check it out here</a>). Added a suite of new features such as a Virtual Office with full bodied 3D avatars and customizable reporting modules.  Our stack used primarily the following technologies:
+                                    </p>
+                                    <ul style={{ listStyleType: "disc"  }}>
+                                        <li>HTML/CSS</li>
+                                        <li>ASP.NET 6 w/Blazor Pages</li>
+                                        <li>JavaScript/JQuery & TypeScript</li>
+                                        <li>React</li>
+                                        <li>ELM</li>
+                                        <li>MSSQL</li>
+                                        <li>C#/F#</li>
+                                        <li>Virtualization w/ Docker</li>
+                                        <li>Azure Cloud Services</li>
+                                        <li>Jira</li>
+                                        <li>Git Source Control</li>
+                                    </ul>
+                                    <p className="info"></p>
+                                </div>
+                            </div>
+                            <div className="row item">
+                                <div className="twelve columns">
+                                    <h3>{portData.work.location1}</h3>
+                                    <p className="info">{portData.work.position1} <span>•</span> <em className="date">{portData.work.dateRange1}</em></p>
+                                    <p>
+                                        Configured custom CMS loadouts for a diverse set of clients in the Travel Destination industry.  Received design assets and converted into drag and droppable custom design components for use with the companies' CMS.  Worked quickly and efficiently moving too new clients in 2 week intervals.  An example of a site I worked on can be seen here <a href='https://www.newzealand.com/us/'>https://www.newzealand.com/us/</a>
+                                    </p>
+                                </div>
+                            </div> {/* item end */}
+                            <div className="row item">
+                                <div className="twelve columns">
+                                    <h3>{portData.work.location3}</h3>
+                                    <p className="info">{portData.work.position3} <span>•</span> <em className="date">{portData.work.dateRange3}</em></p>
+                                    <p>
+                                        Working to usher in the next wave of development specialists.  Partnered with MIT, we lead a 9 month training program to teach web development to students through weekly lessons and concepts.  I lead a weekly office hours session to go over the material for that week and show more in depth examples and answer questions to help concepts stick.  Helped implement changes to the course to stay relevant in the fast moving world of web development with direct feedback on course curriculum.
+                                    </p>
+                                </div>
+                            </div> {/* item end */}
+                        </div> {/* main-col end */}
+                    </div>
+                                        {/* Education
 ----------------------------------------------- */}
                     <div className="row education">
                         <div className="three columns header-col">
@@ -21,59 +71,11 @@ export default class Header extends Component {
                                         demonstrating high level understanding of concepts and technologies.  Worked on 3 full stack applications in group to
                                         simulate on the job group development.  Presented final project to industry professionals to show understanding and ability
                                         to talk to the work we had done.
-          </p>
-                                </div>
-                            </div> {/* item end */}
-                            <div className="row item">
-                                <div className="twelve columns">
-                                    <h3>Technologies Learned</h3>
-                                        <p>
-                                            <ul style={{ listStyleType: "disc"  }}>
-                                                <li>HTML/CSS</li>
-                                                <li>BootStrap, Material-UI and Other Design Frameworks</li>
-                                                <li>Javascript & JQuery</li>
-                                                <li>NodeJS</li>
-                                                <li>MySQL & MongoDB</li>
-                                                <li>Express</li>
-                                                <li>ReactJS</li>
-                                                <li>Git Source Control</li>
-
-                                            </ul>
-                                        </p>
+                                    </p>
                                 </div>
                             </div> {/* item end */}
                         </div> {/* main-col end */}
                     </div> {/* End Education */}
-                    {/* Work
------------------------------------------------ */}
-                    <div className="row work">
-                        <div className="three columns header-col">
-                            <h1><span>Work</span></h1>
-                        </div>
-                        <div className="nine columns main-col">
-                            <div className="row item">
-                                <div className="twelve columns">
-                                    <h3>{portData.work.location2}</h3>
-                                    <p className="info">{portData.work.postion2} <span>•</span><em className="data">{portData.work.dateRange2}</em></p>
-                                    <p>
-                                        Assisted a group of brand new web developers! Responsible for demonstrating techniques and best practices in order to help students build an understanding of web dev technologies. Helped with fostering solutions to their ideas as for new applications.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="row item">
-                                <div className="twelve columns">
-                                    <h3>{portData.work.location1}</h3>
-                                    <p className="info">{portData.work.position1} <span>•</span> <em className="date">{portData.work.dateRange1}</em></p>
-                                    <p>
-                                        Managed teams of 15 to 20 agents to help them achieve personal and
-                                        team metrics at the highest level. Demonstrated exceptional
-                                        communication skills to provide unique coaching to maximize
-                                        performance.
-                                    </p>
-                                </div>
-                            </div> {/* item end */}
-                        </div> {/* main-col end */}
-                    </div>
                 </section>
 
             </React.Fragment>

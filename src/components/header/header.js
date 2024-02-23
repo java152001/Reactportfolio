@@ -5,7 +5,7 @@ export default class Header extends Component {
         return (
             <React.Fragment>
                 <header id="home">
-                    <nav id="nav-wrap">
+                    <nav id="nav-wrap" class="opaque">
                         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show  navigation</a>
                         <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                         <ul id="nav" className="nav">
@@ -18,7 +18,7 @@ export default class Header extends Component {
                     <div className="row banner">
                         <div className="banner-text">
                             <h1 className="responsive-headline">I'm {portData.name}</h1>
-                            <h3>I'm an aspiring <span>Full Stack Web Developer</span> looking to join your team! Let's <a className="smoothscroll" href="#about">start scrolling </a>
+                            <h3>I'm a <span>Full Stack Developer</span> looking to join your team! Let's <a className="smoothscroll" href="#about">start scrolling </a>
                                 and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                             <hr />
                             <ul className="social">                              
