@@ -3,7 +3,6 @@ import Header from './components/header/header';
 import AboutMe from './components/aboutme/aboutme';
 import Resume from './components/resume/resume';
 import Portfolio from './components/portfolio/portfolio';
-import ContactMe from './components/contactme/contactme';
 import Footer from './components/footer/footer';
 import portData from './portdata';
 class App extends Component {
@@ -14,7 +13,6 @@ class App extends Component {
         <AboutMe portData={portData} />
         <Resume portData={portData} />
         <Portfolio portData={portData} />
-        {/* <ContactMe portData={portData} /> */}
         <Footer portData={portData} />
       </div>
     );
